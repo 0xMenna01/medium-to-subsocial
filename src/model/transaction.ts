@@ -1,0 +1,7 @@
+export enum TRANSACTION {
+   INIT,
+   ERROR,
+   SENDING,
+   FINALIZED,
+   CANCELLED,
+}
