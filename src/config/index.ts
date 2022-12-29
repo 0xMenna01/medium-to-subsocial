@@ -1,3 +1,5 @@
+import { MEDIUM_KEY } from "./keys";
+
 export let config = {
   appName: "medium-to-subsocial",
   substrateNodeUrl: `wss://rco-para.subsocial.network`,
@@ -12,7 +14,7 @@ export let config = {
   mediumRequest: {
     method: "GET",
     headers: {
-      "X-RapidAPI-Key": "9f6e37df00msh3df73488f8932a5p1abd35jsnbba13da70403",
+      "X-RapidAPI-Key": MEDIUM_KEY,
       "X-RapidAPI-Host": "medium2.p.rapidapi.com",
     },
   },
